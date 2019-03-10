@@ -5,8 +5,11 @@
     "dependencies": {
         "axios": "^0.18.0",
         "babel-plugin-root-import": "^6.1.0",
+        "customize-cra": "^0.2.12",
+        "eslint": "^5.12.0",
         "react": "^16.8.4",
         "react-app-rewired": "^2.1.0",
+        "react-app-rewired-eslint": "^0.2.4",
         "react-dom": "^16.8.4",
         "react-scripts": "2.1.8"
     },
@@ -26,7 +29,6 @@
         "not op_mini all"
     ],
     "devDependencies": {
-        "eslint": "^5.15.1",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-plugin-import": "^2.16.0",
         "eslint-plugin-jsx-a11y": "^6.2.1",
