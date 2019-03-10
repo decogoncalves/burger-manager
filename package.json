@@ -5,13 +5,16 @@
     "dependencies": {
         "axios": "^0.18.0",
         "babel-plugin-root-import": "^6.1.0",
+        "bootstrap": "^4.3.1",
         "customize-cra": "^0.2.12",
         "eslint": "^5.12.0",
         "react": "^16.8.4",
         "react-app-rewired": "^2.1.0",
         "react-app-rewired-eslint": "^0.2.4",
+        "react-bootstrap": "^1.0.0-beta.5",
         "react-dom": "^16.8.4",
-        "react-scripts": "2.1.8"
+        "react-scripts": "2.1.8",
+        "styled-components": "^4.1.3"
     },
     "scripts": {
         "start": "react-app-rewired start",

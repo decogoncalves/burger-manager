@@ -1,23 +1,12 @@
-import React, { Component } from 'react';
-import { fetchIngredients, fetchRecipes } from './services/api';
+import React from 'react';
+import Footer from './components/footer/index';
+import Header from './components/header/index';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      ingredients: undefined,
-      recipes: undefined,
-    };
-  }
-
-  componentDidMount() {
-    fetchIngredients().then(res => this.setState({ ingredients: res.data }));
-    fetchRecipes().then(res => this.setState({ recipes: res.data }));
-  }
-
-  render() {
-    return <div className="app" />;
-  }
-}
+const App = () => (
+  <div className="app">
+    <Header />
+    <Footer />
+  </div>
+);
 
 export default App;
