@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Select = styled.div`
+export const Select = styled.section`
   .collapse-header {
     border: 1px solid #d3d3d3;
     background: #008c72;
