@@ -7,7 +7,7 @@ export const Finisher = styled.div`
       background-color: #005a5b;
     }
     :active {
-      background-color: #003840;
+      background-color: #003840 !important;
     }
   }
 `;
