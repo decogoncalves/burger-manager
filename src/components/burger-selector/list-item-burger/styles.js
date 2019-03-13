@@ -11,6 +11,12 @@ export const Item = styled.li`
       i {
         color: #008c72;
       }
+      :hover i {
+        color: #005a5b;
+      }
+      :active i {
+        color: #003840;
+      }
       input {
         width: 2rem;
         text-align: center;
