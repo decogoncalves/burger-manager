@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Foot = styled.section`
   padding: 40px 0;
   background: #008c72 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
   p {
     margin-bottom: 0 !important;
   }
